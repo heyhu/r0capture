@@ -220,6 +220,7 @@ Interceptor.attach(addresses["SSL_write"],
 
 if (Java.available) {
   Java.perform(function () {
+    // 保存证书
     function storeP12(pri, p7, p12Path, p12Password) {
       var X509Certificate = Java.use("java.security.cert.X509Certificate")
       var p7X509 = Java.cast(p7, X509Certificate);
@@ -235,8 +236,11 @@ if (Java.available) {
       }
     }
     //在服务器校验客户端的情形下，帮助dump客户端证书，并保存为p12的格式，证书密码为r0ysue
+    // 证书相关信息都在PrivateKeyEntry类里面
+    // hook两个方法的原因：有时候可能不生效。多hook几个方法。
     Java.use("java.security.KeyStore$PrivateKeyEntry").getPrivateKey.implementation = function () {
       var result = this.getPrivateKey()
+      // 获得包名
       var packageName = Java.use("android.app.ActivityThread").currentApplication().getApplicationContext().getPackageName();
       storeP12(this.getPrivateKey(), this.getCertificate(), '/sdcard/Download/' + packageName + uuid(10, 16) + '.p12', 'r0ysue');
       var message = {};
