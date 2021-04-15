@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9514438-4541-45bd-bfdc-0dbd2843cb0a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qoyG8L7LaFOSjQ9my1Lm3BBNCt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9514438-4541-45bd-bfdc-0dbd2843cb0a" name="Default Changelist" comment="" />
+      <created>1617760138777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617760138777</updated>
+      <workItem from="1617760140304" duration="13593000" />
+      <workItem from="1617849357738" duration="3618000" />
+      <workItem from="1617857822519" duration="1129000" />
+      <workItem from="1617874302609" duration="1343000" />
+      <workItem from="1617878387186" duration="324000" />
+      <workItem from="1617953669909" duration="2448000" />
+      <workItem from="1618203584564" duration="14794000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1666" y="92" key="SettingsEditor" timestamp="1617760173735">
+      <screen x="-2560" y="-301" width="2560" height="1365" />
+    </state>
+    <state x="-1666" y="92" key="SettingsEditor/0.25.1440.875/-2560.-301.2560.1365@-2560.-301.2560.1365" timestamp="1617760173735" />
+    <state x="-1829" y="105" width="602" height="508" key="find.popup" timestamp="1617772460629">
+      <screen x="-2560" y="-301" width="2560" height="1415" />
+    </state>
+    <state x="-1829" y="105" width="602" height="508" key="find.popup/0.25.1440.825/-2560.-301.2560.1415@-2560.-301.2560.1415" timestamp="1617772460629" />
+    <state x="-1829" y="91" width="602" height="490" key="find.popup/0.25.1440.875/-2560.-301.2560.1365@-2560.-301.2560.1365" timestamp="1617763617671" />
+  </component>
+</project>

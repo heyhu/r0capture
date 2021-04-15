@@ -312,6 +312,7 @@ if (Java.available) {
       return result;
     }
 
+    // 打印收发包函数
     if (parseFloat(Java.androidVersion)  > 8) {
       Java.use("com.android.org.conscrypt.ConscryptFileDescriptorSocket$SSLOutputStream").write.overload('[B', 'int', 'int').implementation = function (bytearry, int1, int2) {
         var result = this.write(bytearry, int1, int2);
